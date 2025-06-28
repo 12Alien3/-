@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cw092 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\34960\AppData\Local\Temp\RSP1684.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/cw092.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\cw092\Bmp.cpp"
+]
+Creating command line "cl.exe @C:\Users\34960\AppData\Local\Temp\RSP1684.tmp" 
+Creating temporary file "C:\Users\34960\AppData\Local\Temp\RSP1685.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/cw092.pdb" /debug /machine:I386 /out:"Debug/cw092.exe" /pdbtype:sept 
+.\Debug\Bmp.obj
+.\Debug\cw092.obj
+.\Debug\cw092Doc.obj
+.\Debug\cw092View.obj
+.\Debug\HistogramDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\cw092.res
+]
+Creating command line "link.exe @C:\Users\34960\AppData\Local\Temp\RSP1685.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+D:\cw092\Bmp.cpp(1107) : warning C4101: 'dis' : unreferenced local variable
+D:\cw092\Bmp.cpp(1155) : warning C4101: 'dis' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+cw092.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
